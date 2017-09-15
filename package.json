@@ -1,0 +1,26 @@
+{
+  "name": "alfred-translate",
+  "version": "1.0.0",
+  "description": "Alfred 3 workflow for translation",
+  "license": "MIT",
+  "repository": "patrickkahl/alfred-translate",
+  "author": {
+    "name": "Patrick Kahl",
+    "email": "Kahl.Patrick@googlemail.com",
+    "url": "github.com/patrickkahl"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": ["index.js", "icon.png", "info.plist"],
+  "keywords": ["alfred", "workflow", "alfy, dict.cc", "translation"],
+  "dependencies": {
+    "alfy": "^0.6.0",
+    "cheerio": "^1.0.0-rc.2",
+    "node-fetch": "^1.7.3"
+  },
+}
